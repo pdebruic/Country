@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "PaulDeBruicker 2/8/2013 11:00",
+	"super" : "Object",
+	"category" : "Country",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"CountryList"
+	],
+	"instvars" : [
+		"countryName",
+		"countryCode",
+		"currency",
+		"locale"
+	],
+	"name" : "Country",
+	"type" : "normal"
+}
