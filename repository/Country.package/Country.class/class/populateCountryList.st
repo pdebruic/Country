@@ -2,7 +2,7 @@ as yet unclassified
 populateCountryList
 	| countryXml |
 	countryXml := XMLDOMParser parse: (HTTPSocket httpGetDocument: self isoXmlUrl) contents.
-	CountryList := OrderedCollection new.
+	CountryList := SortedCollection new.
 	countryXml firstNode nodes
 		do: [ :each | 
 			| newCountry |
