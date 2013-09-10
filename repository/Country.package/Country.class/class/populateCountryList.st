@@ -1,7 +1,7 @@
 as yet unclassified
 populateCountryList
 	| countryXml |
-	countryXml := XMLDOMParser parse: (HTTPSocket httpGetDocument: self isoXmlUrl) contents.
+	countryXml := XMLDOMParser parse: (ZnEasy get: self isoXmlUrl) contents.
 	CountryList := SortedCollection new.
 	countryXml firstNode nodes
 		do: [ :each | 
