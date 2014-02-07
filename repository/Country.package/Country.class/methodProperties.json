@@ -13,13 +13,15 @@
 		"<=" : "PaulDeBruicker 2/26/2013 12:08"
 	},
 	"class" : {
-		"findByTwoLetterCode:" : "PaulDeBruicker 2/8/2013 13:08",
-		"populateCountryList" : "PaulDeBruicker 09/10/2013 16:48",
-		"initialize" : "PaulDeBruicker 2/8/2013 12:16",
-		"countryList" : "PaulDeBruicker 2/8/2013 11:24",
+		"githubISOXMLURL" : "PaulDeBruicker 2/7/2014 11:35",
 		"addCurrencies" : "PaulDeBruicker 2/8/2013 12:16",
+		"findByTwoLetterCode:" : "PaulDeBruicker 2/8/2013 13:08",
+		"initialize" : "PaulDeBruicker 2/8/2013 12:16",
 		"findByName:" : "PaulDeBruicker 2/8/2013 12:44",
-		"isoXmlUrl" : "PaulDeBruicker 2/8/2013 11:00",
-		"usa" : "PaulDeBruicker 2/8/2013 13:08"
+		"populateCountryList" : "PaulDeBruicker 2/7/2014 11:49",
+		"getXMLISOData" : "PaulDeBruicker 2/7/2014 11:36",
+		"usa" : "PaulDeBruicker 2/8/2013 13:08",
+		"isoXmlUrl" : "PaulDeBruicker 2/7/2014 11:37",
+		"countryList" : "PaulDeBruicker 2/8/2013 11:24"
 	}
 }

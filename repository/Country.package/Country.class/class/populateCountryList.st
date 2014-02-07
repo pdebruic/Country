@@ -1,13 +1,13 @@
 as yet unclassified
 populateCountryList
 	| countryXml |
-	countryXml := XMLDOMParser parse: (ZnEasy get: self isoXmlUrl) contents.
+	countryXml := XMLDOMParser parse: self getXMLISOData contents.
 	CountryList := SortedCollection new.
 	countryXml firstNode nodes
 		do: [ :each | 
 			| newCountry |
 			newCountry := self new.
-			newCountry countryName: each nodes first strings first.
-			newCountry countryCode: each nodes second strings first.
+			newCountry countryName: (each attributeAt: 'name').
+			newCountry countryCode:  (each attributeAt: 'alpha-2').
 			CountryList add: newCountry ].
 	self addCurrencies
