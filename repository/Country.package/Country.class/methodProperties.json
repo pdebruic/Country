@@ -14,14 +14,17 @@
 	},
 	"class" : {
 		"githubISOXMLURL" : "PaulDeBruicker 2/7/2014 11:35",
+		"countryListArray" : "PaulDeBruicker 2/7/2014 16:15",
 		"addCurrencies" : "PaulDeBruicker 2/8/2013 12:16",
 		"findByTwoLetterCode:" : "PaulDeBruicker 2/8/2013 13:08",
 		"initialize" : "PaulDeBruicker 2/8/2013 12:16",
 		"findByName:" : "PaulDeBruicker 2/8/2013 12:44",
-		"populateCountryList" : "PaulDeBruicker 2/7/2014 11:49",
+		"populateCountryList" : "PaulDeBruicker 2/7/2014 16:19",
 		"getXMLISOData" : "PaulDeBruicker 2/7/2014 11:36",
-		"usa" : "PaulDeBruicker 2/8/2013 13:08",
+		"getRemoteCountryData" : "PaulDeBruicker 2/7/2014 16:17",
 		"isoXmlUrl" : "PaulDeBruicker 2/7/2014 11:37",
+		"usa" : "PaulDeBruicker 2/8/2013 13:08",
+		"useRemoteData" : "PaulDeBruicker 2/7/2014 16:18",
 		"countryList" : "PaulDeBruicker 2/8/2013 11:24"
 	}
 }
