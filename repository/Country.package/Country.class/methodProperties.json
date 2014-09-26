@@ -20,11 +20,12 @@
 		"initialize" : "PaulDeBruicker 2/8/2013 12:16",
 		"findByName:" : "PaulDeBruicker 2/8/2013 12:44",
 		"populateCountryList" : "PaulDeBruicker 2/7/2014 16:19",
-		"getXMLISOData" : "PaulDeBruicker 2/7/2014 11:36",
+		"getXMLISOData" : "PaulDeBruicker 9/26/2014 08:01",
+		"httpClient" : "PaulDeBruicker 9/26/2014 08:02",
 		"getRemoteCountryData" : "PaulDeBruicker 2/7/2014 16:17",
 		"isoXmlUrl" : "PaulDeBruicker 2/7/2014 11:37",
 		"usa" : "PaulDeBruicker 2/8/2013 13:08",
-		"useRemoteData" : "PaulDeBruicker 2/7/2014 16:18",
-		"countryList" : "PaulDeBruicker 2/8/2013 11:24"
+		"countryList" : "PaulDeBruicker 2/8/2013 11:24",
+		"useRemoteData" : "PaulDeBruicker 2/7/2014 16:18"
 	}
 }

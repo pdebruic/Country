@@ -1,3 +1,3 @@
 as yet unclassified
 getXMLISOData
-	^ ZnEasy get: self githubISOXMLURL 
+	^ self httpClient get: self githubISOXMLURL
