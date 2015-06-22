@@ -1,7 +1,11 @@
 as yet unclassified
 getRemoteCountryData
 	| countryXml |
-	countryXml := XMLDOMParser parse: self getXMLISOData contents.
+	[ countryXml := XMLDOMParser parse: self getXMLISOData contents ]
+		on: NameLookupFailure
+		do: [ 
+			Transcript show: 'no network connection'.
+			^ self ].
 	CountryList := SortedCollection new.
 	countryXml firstNode nodes
 		do: [ :each | 
