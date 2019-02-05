@@ -1,4 +1,8 @@
 as yet unclassified
 addCurrencies
-	(Smalltalk at: #Currency) notNil
-		ifTrue: [ self countryList do: [ :eachCountry | eachCountry currency: (Currency getFromCountryName: eachCountry countryName) ] ]
+  (Smalltalk at: #'Currency')
+    ifNotNil: [ :currencyClass | 
+      self countryList
+        do: [ :eachCountry | 
+          (currencyClass getFromCountryName: eachCountry countryName)
+            ifNotNil: [ :cur | eachCountry currency: cur ] ] ]
